@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: How to install whisper.cpp on Ubuntu
+Upstream-Contact: Issues · 林博仁 Buo-ren, Lin / How to install whisper.cpp on Ubuntu · GitLab <https://gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto/-/issues>
+Source: https://gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto
+
+Files:
+    *README.md
+    */README.md
+Copyright: Copyright 2024 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
+License: CC-BY-SA-4.0+
