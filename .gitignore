@@ -88,3 +88,8 @@
 
 # Don't track continuous integration virtual environments
 /continuous-integration/venv/
+
+# Don't track the Debian packaging assets build by the equivs utility
+*.deb
+*.buildinfo
+*.changes
