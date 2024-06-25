@@ -16,6 +16,37 @@ project working directory.
 cd /path/to/whisper.cpp-ubuntu-installation-howto-X.Y.Z
 ```
 
+## Installing the build dependencies
+
+By reading [the upstream project's README](https://github.com/ggerganov/whisper.cpp/blob/master/README.md)
+one could find out that this software requires the following build dependencies:
+
+* GNU Make
+* Build chain for building C and C++ programs
+
+In order to install these build dependencies with uninstalling them cleanly in
+mind, one can use the equivs utility to build a meta-package that depends on
+these packages.
+
+Install the equivs utility by running the following command _as root_:
+
+```bash
+apt install equivs
+```
+
+Then run the following command to build the whisper-cpp-build-deps meta-package:
+
+```bash
+equivs-build whisper-cpp-build-deps.cfl
+```
+
+After the meta-package is built you can install the meta-package by running the
+following command _as root_:
+
+```bash
+apt install ./whisper-cpp-build-deps_1.0_all.deb
+```
+
 ## Reference
 
 The following are the external materials that are referenced during the writing
