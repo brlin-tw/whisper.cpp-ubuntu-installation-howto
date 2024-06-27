@@ -14,4 +14,7 @@ Depends:
     ,make
     ,cmake
     ,libopenblas-dev
+    ,libavcodec-dev
+    ,libswresample-dev
+    ,libavformat-dev
 Description: Build dependencies for the whisper.cpp software
