@@ -55,6 +55,21 @@ Run the following command to build the whisper-cpp software:
 GGML_OPENBLAS=1 make -j
 ```
 
+## Install the runtime dependencies
+
+Run the following command to build the whisper-cpp-deps meta-package:
+
+```bash
+equivs-build whisper-cpp-deps.cfl
+```
+
+After the meta-package is built you can install the meta-package by running the
+following command _as root_:
+
+```bash
+apt install ./whisper-cpp-deps_1.0_all.deb
+```
+
 ## Reference
 
 The following are the external materials that are referenced during the writing
