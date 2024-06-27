@@ -12,4 +12,6 @@ Depends:
     gcc
     ,g++
     ,make
+    ,cmake
+    ,libopenblas-dev
 Description: Build dependencies for the whisper.cpp software
