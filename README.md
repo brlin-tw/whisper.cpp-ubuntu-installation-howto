@@ -47,6 +47,14 @@ following command _as root_:
 apt install ./whisper-cpp-build-deps_1.0_all.deb
 ```
 
+## Build the whisper-cpp software
+
+Run the following command to build the whisper-cpp software:
+
+```bash
+GGML_OPENBLAS=1 make -j
+```
+
 ## Reference
 
 The following are the external materials that are referenced during the writing
@@ -54,6 +62,8 @@ of this article:
 
 * [Quick start | ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++](https://github.com/ggerganov/whisper.cpp?tab=readme-ov-file#quick-start)  
   Explains the process of building the software from source.
+* [BLAS CPU support via OpenBLAS | ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++](https://github.com/ggerganov/whisper.cpp?tab=readme-ov-file#blas-cpu-support-via-openblas)  
+  Explains on how to enable OpenBLAS support in the whisper-cpp software.
 
 ## Licensing
 
