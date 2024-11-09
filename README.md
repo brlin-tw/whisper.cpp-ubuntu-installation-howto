@@ -37,7 +37,7 @@ apt install equivs
 Then run the following command to build the whisper-cpp-build-deps meta-package:
 
 ```bash
-equivs-build whisper-cpp-build-deps.cfl
+equivs-build whisper-cpp-build-deps.ctl
 ```
 
 After the meta-package is built you can install the meta-package by running the
