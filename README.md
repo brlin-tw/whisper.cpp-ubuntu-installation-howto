@@ -239,6 +239,17 @@ whisper_print_timings:   prompt time =     0.00 ms /     1 runs (    0.00 ms per
 whisper_print_timings:    total time =  1189.93 ms
 ```
 
+## Remove the software
+
+Run the following commands _as root_ to uninstall the whisper.cpp software:
+
+```bash
+whisper_cpp_version=1.8.2
+sudo rm -rf "/opt/whisper.cpp-${whisper_cpp_version}"
+sudo apt purge whisper-cpp-deps whisper-cpp-build-deps
+sudo apt autoremove
+```
+
 ## Reference
 
 The following are the external materials that are referenced during the writing
