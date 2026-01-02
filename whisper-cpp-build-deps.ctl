@@ -9,10 +9,12 @@ Standards-Version: 3.9.2
 Package: whisper-cpp-build-deps
 Maintainer: 林博仁(Buo-ren, Lin) <buo.ren.lin@gmail.com>
 Depends:
-    gcc
+    ccache
+    ,gcc
     ,g++
     ,make
     ,cmake
+    ,cmake-curses-gui
     ,libopenblas-dev
     ,libavcodec-dev
     ,libswresample-dev
