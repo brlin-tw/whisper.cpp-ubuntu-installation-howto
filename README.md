@@ -105,6 +105,9 @@ cmake_opts=(
     # Use Release build type for better performance.
     -DCMAKE_BUILD_TYPE=Release
 
+    # Enable Vulkan support for GPU acceleration (if applicable).
+    -DGGML_VULKAN=ON
+
     # Enable OpenBLAS support for CPU acceleration.
     -DGGML_OPENBLAS=ON
 
