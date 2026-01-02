@@ -19,4 +19,5 @@ Depends:
     ,libavcodec-dev
     ,libswresample-dev
     ,libavformat-dev
+    ,libvulkan-dev
 Description: Build dependencies for the whisper.cpp software

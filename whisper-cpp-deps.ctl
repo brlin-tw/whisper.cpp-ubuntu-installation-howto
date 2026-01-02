@@ -13,6 +13,7 @@ Depends:
     ,libswresample4
     ,libavcodec-extra60
     ,libopenblas0
+    ,libvulkan1
 Recommends:
     ffmpeg
 Description: Runtime dependencies for the whisper.cpp software
