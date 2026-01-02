@@ -9,10 +9,10 @@ Standards-Version: 3.9.2
 Package: whisper-cpp-deps
 Maintainer: 林博仁(Buo-ren, Lin) <buo.ren.lin@gmail.com>
 Depends:
-    libavformat61
-    ,libswresample5
-    ,libavcodec-extra61
+    libavcodec-extra61
+    ,libavformat61
     ,libopenblas0
+    ,libswresample5
     ,libvulkan1
 Recommends:
     ffmpeg

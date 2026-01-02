@@ -10,14 +10,14 @@ Package: whisper-cpp-build-deps
 Maintainer: 林博仁(Buo-ren, Lin) <buo.ren.lin@gmail.com>
 Depends:
     ccache
-    ,gcc
-    ,g++
-    ,make
     ,cmake
     ,cmake-curses-gui
-    ,libopenblas-dev
+    ,g++
+    ,gcc
     ,libavcodec-dev
-    ,libswresample-dev
     ,libavformat-dev
+    ,libopenblas-dev
+    ,libswresample-dev
     ,libvulkan-dev
+    ,make
 Description: Build dependencies for the whisper.cpp software
