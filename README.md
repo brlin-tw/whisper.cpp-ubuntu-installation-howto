@@ -5,6 +5,8 @@ Documents the process on installing the [whisper.cpp](https://github.com/ggml-or
 <https://gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto>  
 [![The GitLab CI pipeline status badge of the project's `main` branch](https://gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto/badges/main/pipeline.svg?ignore_skipped=true "Click here to check out the comprehensive status of the GitLab CI pipelines")](https://gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto/-/pipelines) [![GitHub Actions workflow status badge](https://github.com/brlin-tw/whisper.cpp-ubuntu-installation-howto/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status")](https://github.com/brlin-tw/whisper.cpp-ubuntu-installation-howto/actions/workflows/check-potential-problems.yml) [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/gitlab.com/brlin/whisper.cpp-ubuntu-installation-howto)
 
+\#whisper-cpp \#tutorial \#ubuntu
+
 ## Acquire the projects release package
 
 To assist on the tutorial, download the project's release package from the
