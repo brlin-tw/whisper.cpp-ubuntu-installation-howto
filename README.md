@@ -1,4 +1,4 @@
-# (IN DEVELOPMENT) How to install whisper.cpp on Ubuntu
+# How to install whisper.cpp on Ubuntu
 
 Documents the process on installing the [whisper.cpp](https://github.com/ggml-org/whisper.cpp) utility on Ubuntu as cleanly as possible.
 
