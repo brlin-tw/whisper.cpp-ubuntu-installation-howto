@@ -166,7 +166,7 @@ equivs-build _control_file_
 Replace the _control_file_ placeholder with the proper filename for your operating system version:
 
 * Ubuntu 24.04: `whisper-cpp-deps.ctl`
-* Ubuntu 25.10: `whisper-cpp-deps-25.10.ctl`
+* Ubuntu 25.10: `whisper-cpp-deps-2510.ctl`
 
 After the meta-package is built you can install the meta-package by running the
 following command _as root_:
