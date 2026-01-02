@@ -192,9 +192,31 @@ Replace the _model_name_ placeholder with the proper model name, you can acquire
 Then you can run the following command to transcribe an audio file:
 
 ```bash
-/opt/whisper.cpp-1.8.2/bin/whisper-cli \
-    -m whisper.cpp/models/ggml-base.en.bin \
+cpu_threads="$(nproc)"
+transcribe_threads="$((cpu_threads > 4 ? cpu_threads - 2 : cpu_threads))"
+whisper_opts=(
+    # Specify the number of threads to use for transcription
+    --threads "${transcribe_threads}"
+
+    # Show progress during transcription
+    --print-progress
+
+    # Use flash attention for better performance
+    --flash-attn
+
+    # Suppress non-speech tokens in the output
+    --suppress-nst
+
+    # Automatically detect the language of the input audio(default: English only)
+    --language auto
+
+    # Specify the model file to use
+    -m whisper.cpp/models/ggml-base.en.bin
+
+    # Specify the input audio file to transcribe
     -f whisper.cpp/samples/jfk.wav
+)
+/opt/whisper.cpp-1.8.2/bin/whisper-cli "${whisper_opts[@]}"
 ```
 
 it should have the following similar output if everything goes well:
